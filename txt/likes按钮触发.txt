@@ -1,0 +1,79 @@
+likes按钮触发 post提交
+
+https://www.pinterest.com/resource/BoardPickerBoardsResource/get/?source_url=%2F&data=%7B%22options%22%3A%7B%22filter%22%3A%22all%22%2C%22field_set_key%22%3A%22board_picker%22%2C%22allow_stale%22%3Atrue%7D%2C%22context%22%3A%7B%7D%7D&module_path=App%3EHomePage%3EAuthHomePage%3EGrid%3EGridItems%3EPin(show_feedback_tool%3Dtrue%2C+component_type%3D0%2C+hide_comments_pfy_interests%3Dtrue%2C+show_board%3Dtrue%2C+is_homefeed_pin_credits%3Dtrue%2C+show_reason%3Dtrue%2C+show_pinner%3Dtrue%2C+show_pinned_from%3Dfalse%2C+resource%3DPinResource(id%3D81064862015948745))&_=1458530383257
+
+_=1458530383257
+data={"options":{"filter":"all","field_set_key":"board_picker","allow_stale":true},"context":{}}
+module_path=App>HomePage>AuthHomePage>Grid>GridItems>Pin(show_feedback_tool=true, component_type=0, hide_comments_pfy_interests=true, show_board=true, is_homefeed_pin_credits=true, show_reason=true, show_pinner=true, show_pinned_from=false, resource=PinResource(id=81064862015948745))
+source_url=/
+
+{"request_identifier":"818077405062","resource_data_cache":[{"data":{"create_suggestions":["Stuff to
+ Buy","Ideas for the House","Places to Visit","Projects to Try","Things to Wear"],"boards_shortlist"
+:[{"is_collaborative":false,"layout":"default","name":"Fashion","privacy":"public","image_cover_url"
+:"https://s-media-cache-ak0.pinimg.com/200x150/6f/d8/0a/6fd80a34bcf402f237ae96677bbae442.jpg","type"
+:"board","id":"311241092937198060","recommendation_reason":"Recently picked"}],"all_boards":[{"is_collaborative"
+:false,"layout":"default","name":"Fashion","privacy":"public","image_cover_url":"https://s-media-cache-ak0
+.pinimg.com/200x150/6f/d8/0a/6fd80a34bcf402f237ae96677bbae442.jpg","type":"board","id":"311241092937198060"
+}]},"resource":{"name":"BoardPickerBoardsResource","options":{"filter":"all","field_set_key":"board_picker"
+,"allow_stale":true}}}],"resource":{"name":"BoardPickerBoardsResource","options":{"filter":"all","field_set_key"
+:"board_picker","allow_stale":true}},"client_context":{"origin":"https://www.pinterest.com","unauth_id"
+:"27ac817107334ec4a13eaec8f84e76ae","is_retina":false,"user_agent_platform":"other","sterling_admin_mode_view_as"
+:null,"is_authenticated":true,"allow_image_prioritization":true,"browser_locale":"en-US","deep_link_action"
+:null,"is_tablet_agent":false,"visible_url":"/","utm_campaign":null,"browser_type":4,"deep_link":"","site_type"
+:0,"from_open_in_app_click":null,"invite_code":null,"locale":"en-US","utm_medium":null,"giftwrap_holdout"
+:false,"app_version":"a9dd43a","site_const":{"PIN_MARGIN":14,"MAX_COLUMNS":10,"MIN_COLUMNS":3,"PRESENTER_BUTTON_MODULE_NAME"
+:"DropdownButton","PIN_WIDTH":236},"real_ip":"111.202.107.14","user_agent_is_ios_9_2_or_above":false
+,"user":{"is_employee":false,"username":"lba8612","last_name":"","domain_verified":false,"nags":[],"image_medium_url"
+:"https://s-passets-cache-ak0.pinimg.com/images/user/default_75.png","has_password":true,"full_name"
+:"anJson","image_small_url":"https://s-passets-cache-ak0.pinimg.com/images/user/default_30.png","gplus_url"
+:null,"id":"311241161656381090","is_write_banned":false,"first_name":"anJson","domain_url":null,"has_seen_notifications"
+:false,"personalize_from_offsite_browsing":true,"facebook_timeline_enabled":false,"personalize_nux_from_offsite_browsing"
+:false,"connected_to_rakuten":false,"facebook_id":"","connected_to_google":false,"is_partner":false,"type"
+:"user","email":"lba8612@163.com","image_large_url":"https://s-passets-cache-ak0.pinimg.com/images/user
+/default_140.png","connected_to_yahoo":false,"verified_identity":{},"twitter_url":null,"facebook_url"
+:null,"twitter_publish_enabled":false,"ads_customize_from_conversion":true,"facebook_publish_stream_enabled"
+:false,"connected_to_microsoft":false,"gender":"male","created_at":"Sat, 19 Mar 2016 05:58:18 +0000"
+,"login_state":1,"website_url":null,"country":"CN","extension_access_token":null},"deep_link_default"
+:"","http_referrer":"https://www.pinterest.com","is_mobile_agent":false,"is_internal_ip":false,"language"
+:"en","referrer":null,"user_agent_can_use_native_app":false,"browser_name":"Firefox","country":"CN","error_template_path"
+:"templates/error.nunjucks","sterling_admin_mode":false},"resource_response":{"data":{"create_suggestions"
+:["Stuff to Buy","Ideas for the House","Places to Visit","Projects to Try","Things to Wear"],"boards_shortlist"
+:[{"is_collaborative":false,"layout":"default","name":"Fashion","privacy":"public","image_cover_url"
+:"https://s-media-cache-ak0.pinimg.com/200x150/6f/d8/0a/6fd80a34bcf402f237ae96677bbae442.jpg","type"
+:"board","id":"311241092937198060","recommendation_reason":"Recently picked"}],"all_boards":[{"is_collaborative"
+:false,"layout":"default","name":"Fashion","privacy":"public","image_cover_url":"https://s-media-cache-ak0
+.pinimg.com/200x150/6f/d8/0a/6fd80a34bcf402f237ae96677bbae442.jpg","type":"board","id":"311241092937198060"
+}]},"error":null}}
+
+
+likes按钮触发 回调地址get
+
+https://www.pinterest.com/resource/PinLikeResource2/create/
+data={"options":{"pin_id":"81064862015948745","source_interest_id":"905661505034"},"context":{}}
+module_path=App>HomePage>AuthHomePage>Grid>GridItems>Pin>PinLikeButton(liked=false, source_interest_id=905661505034, has_icon=true, text=Like, class_name=likeSmall, pin_id=81064862015948745, show_text=false, ga_category=like, state_badgeValue="", state_accessibilityText=Like, state_disabled=undefined)
+source_url=/
+
+{"request_identifier":"513627247172","resource_data_cache":[],"resource":{"name":"PinLikeResource2","options"
+:{"pin_id":"81064862015948745","bookmarks":["-end-"],"source_interest_id":"905661505034"}},"client_context"
+:{"origin":"https://www.pinterest.com","unauth_id":"27ac817107334ec4a13eaec8f84e76ae","is_retina":false
+,"user_agent_platform":"other","sterling_admin_mode_view_as":null,"is_authenticated":true,"allow_image_prioritization"
+:true,"browser_locale":"en-US","deep_link_action":null,"event_log_info":{"event_type":6,"object_id_str"
+:"81064862015948745"},"is_tablet_agent":false,"visible_url":"/","utm_campaign":null,"browser_type":4
+,"deep_link":"","site_type":0,"from_open_in_app_click":null,"invite_code":null,"locale":"en-US","utm_medium"
+:null,"giftwrap_holdout":false,"app_version":"a9dd43a","site_const":{"PIN_MARGIN":14,"MAX_COLUMNS":10
+,"MIN_COLUMNS":3,"PRESENTER_BUTTON_MODULE_NAME":"DropdownButton","PIN_WIDTH":236},"real_ip":"111.202
+.107.14","user_agent_is_ios_9_2_or_above":false,"user":{"is_employee":false,"username":"lba8612","last_name"
+:"","domain_verified":false,"nags":[],"image_medium_url":"https://s-passets-cache-ak0.pinimg.com/images
+/user/default_75.png","has_password":true,"full_name":"anJson","image_small_url":"https://s-passets-cache-ak0
+.pinimg.com/images/user/default_30.png","gplus_url":null,"id":"311241161656381090","is_write_banned"
+:false,"first_name":"anJson","domain_url":null,"has_seen_notifications":false,"personalize_from_offsite_browsing"
+:true,"facebook_timeline_enabled":false,"personalize_nux_from_offsite_browsing":false,"connected_to_rakuten"
+:false,"facebook_id":"","connected_to_google":false,"is_partner":false,"type":"user","email":"lba8612
+@163.com","image_large_url":"https://s-passets-cache-ak0.pinimg.com/images/user/default_140.png","connected_to_yahoo"
+:false,"verified_identity":{},"twitter_url":null,"facebook_url":null,"twitter_publish_enabled":false
+,"ads_customize_from_conversion":true,"facebook_publish_stream_enabled":false,"connected_to_microsoft"
+:false,"gender":"male","created_at":"Sat, 19 Mar 2016 05:58:18 +0000","login_state":1,"website_url":null
+,"country":"CN","extension_access_token":null},"deep_link_default":"","http_referrer":"https://www.pinterest
+.com","is_mobile_agent":false,"is_internal_ip":false,"language":"en","referrer":null,"user_agent_can_use_native_app"
+:false,"browser_name":"Firefox","country":"CN","error_template_path":"templates/error.nunjucks","sterling_admin_mode"
+:false},"resource_response":{"data":null,"error":null}}
