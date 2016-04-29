@@ -1,0 +1,20 @@
+
+pin_id ＝ “486740672208562952” //用户pin_id
+source_interest_id ＝ “916919860042” //元素单元ID 
+board_id ＝ “311241092937198060” //分类id
+
+登录
+https://www.pinterest.com/resource/UserSessionResource/create/?source_url=%2Flogin%2F&data=%7B%22options%22%3A%7B%22username_or_email%22%3A%22” ＋ 参_账号 ＋ “%22%2C%22password%22%3A%22” ＋ 参_密码 ＋ “%22%7D%2C%22context%22%3A%7B%7D%7D&module_path=%5Bobject+Object%5D%3E%5Bobject+Object%5D%3E%5Bobject+Object%5D%3E%5Bobject+Object%5D
+
+likes
+https://www.pinterest.com/resource/PinLikeResource2/create/?data=%7B%22options%22%3A%7B%22pin_id%22%3A%22” ＋ pin_id ＋ “%22%2C%22source_interest_id%22%3A%22” ＋ source_interest_id ＋ “%22%7D%2C%22context%22%3A%7B%7D%7D&module_path=App%3EHomePage%3EAuthHomePage%3EGrid%3EGridItems%3EPin%3EPinLikeButton(liked%3Dfalse%2C%20source_interest_id%3D” ＋ source_interest_id ＋ “%2C%20has_icon%3Dtrue%2C%20text%3DLike%2C%20class_name%3DlikeSmall%2C%20pin_id%3D” ＋ pin_id ＋ “%2C%20show_text%3Dfalse%2C%20ga_category%3Dlike%2C%20state_badgeValue%3D%22%22%2C%20state_accessibilityText%3DLike%2C%20state_disabled%3Dundefined)&source_url=%2F
+
+pin
+https://www.pinterest.com/resource/RepinResource/create/?data=%7B%22options%22%3A%7B%22pin_id%22%3A%22” ＋ pin_id ＋ “%22%2C%22is_buyable_pin%22%3Afalse%2C%22description%22%3A%22.%22%2C%22link%22%3A%22http%3A%2F%2Fmonde-des-hommes.tumblr.com%2Fpost%2F59551627888%22%2C%22is_video%22%3Afalse%2C%22board_id%22%3A%22” ＋ board_id ＋ “%22%7D%2C%22context%22%3A%7B%7D%7D&module_path=App%3EModalManager%3EModal%3EPinCreate%3EBoardPicker%3ESelectList(view_type%3DpinCreate%2C%20selected_section_index%3Dundefined%2C%20selected_item_index%3Dundefined%2C%20highlight_matched_text%3Dtrue%2C%20suppress_hover_events%3Dundefined%2C%20scroll_selected_item_into_view%3Dtrue%2C%20select_first_item_after_update%3Dfalse%2C%20item_module%3D%5Bobject%20Object%5D)&source_url=%2F
+
+获取boards
+https://www.pinterest.com/resource/BoardPickerBoardsResource/get/?source_url=%2F&data=%7B%22options%22%3A%7B%22allow_stale%22%3Atrue%2C%22field_set_key%22%3A%22board_picker%22%2C%22filter%22%3A%22all%22%2C%22shortlist_length%22%3A1%7D%2C%22context%22%3A%7B%7D%7D&module_path=App%3EHomePage%3EAuthHomePage%3EGrid%3EGridItems%3EPin%3EShowModalButton(module%3DPinCreate)&_=1458807445305
+_=1458807445305
+
+
+
