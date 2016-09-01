@@ -1,0 +1,65 @@
+pre_config 配置表
+	name 配置名称
+	value 配置值
+	desc 描述
+
+pre_category 分类(模块)表
+	id 
+	name 名称
+	status 启用状态 1-启用 2-禁用
+		
+pre_domain 域名表
+	id 
+	domain 域名
+	addtime 添加时间
+	status 启用状态 1-启用 2-禁用
+
+pre_account 账号表
+	id 
+	username 用户名
+	password 密码
+	errormsg 错误信息
+	addtime 添加时间
+	status 启用状态 1-启用 2-禁用
+	
+	
+pre_siteurl 网址表
+	id
+	title 标题
+	desc 描述
+	linkurl url地址
+	thumb 缩略图
+	addtime 添加时间
+	status 启用状态 1-启用 2-禁用
+
+pre_pin_user pin用户表
+	id
+	userid 用户id
+	username 用户名
+	password 密码
+	pin_total 推送总数量
+	succee_total 推送成功数量
+	fail_total 推送失败数量
+
+pre_pin_detail pin队列明细表
+	id
+	pin_user_id 推送用户自增id
+	catename 模块
+	domain 域名
+	linkurl url地址
+	title 标题
+	desc 描述
+	thumb 缩略图
+	msg 提示信息
+	status 推送状态 0-等待 1-成功 2-失败
+	
+	
+/**************************/
+1、每次pin账号最大限制数量
+2、是否随机选择域名 1-是 2-否
+3、每次pin域名最大限制数量
+4、是否随机选择网址 1-是 2-否
+5、一个账号pin网址数量
+6、一个模块最大pin数量
+7、pin用户间隔时间
+/**************************/
