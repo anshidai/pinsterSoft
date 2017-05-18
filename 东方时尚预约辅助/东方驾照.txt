@@ -1,0 +1,294 @@
+登录
+https://api.dfssclub.cn/api/v1/User/MixedLogin
+
+POST https://api.dfssclub.cn/api/v1/User/MixedLogin HTTP/1.1
+DeviceId: 867662020078803
+DeviceModel: QiKU,360,8692-A00
+PushClientId: 160a3797c8345a08006
+DeviceSystem: 安卓 6.0.1
+ApiKey: 708522cecbed4a0eb2dc3cff8afd6512
+AppOwnerId: 1
+ClientVersion: 2.1.3
+Content-Type: application/json; charset=utf-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; 8692-A00 Build/MMB29M)
+Host: api.dfssclub.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 114
+
+post提交
+{"drivingSchoolId":1,"pushClientId":"160a3797c8345a08006","password":"1534214","mobileOrStudentNum":"15201270117"}
+
+HTTP/1.1 200 OK
+Date: Tue, 16 May 2017 03:09:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 323
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-AspNet-Version: 4.0.30319
+X-Powered-By: neusmart
+Access-Control-Allow-Headers: DeviceId,ApiKey,accept,AuthToken,IsTokenEncrypted,Content-Type,Signature,RequestId,AppOwnerId,ClientVersion,PushClientId,DeviceModel,DeviceSystem,TimeStamp,Noncestr,ApiChecksum
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+
+登录失败
+{"data":null,"status":255,"friendlyMessage":"请确认校区选择正确且用户账号密码输入正确！","message":"东方时尚视频教学返回码：255，Message:调用第三方返回错误！东方时尚返回码：40003,消息:无效的学员编号","requestId":"dfac56d224644b6e87db44a9f4a7d5d3","appOwnerId":1}
+
+登录成功
+{"data":{"token":"81fe4924f0ed4c68b44b8f5641e847e9","userProfile":{"userRole":0,"thirdPartyId":"04227046","thirdPartyIdName":null,"userName":null,"pushClientId":"160a3797c8345a08006","appOwnerId":1,"birthday":"","isActive":true,"email":null,"countryName":"中国","provinceName":"","cityName":"","phoneNum":"15201270117","idNum":null,"isFriend":false,"userId":204830,"name":"李保安","avatar":"","avatarFileUploadId":"","userType":2,"gender":0,"exclusiveClubId":204577,"level":null,"levelName":null,"memberNum":10204830}},"status":0,"friendlyMessage":"恭喜您登录成功！","message":"成功！","requestId":"ca6c202c1bff44b0b4b93686bf48bfbe","appOwnerId":1}
+
+
+
+退出登录
+https://api.dfssclub.cn/api/v1/User/Logout
+
+POST https://api.dfssclub.cn/api/v1/User/Logout HTTP/1.1
+DeviceId: 867662020078803
+AuthToken: 5d5c48424c674602b8a97a4d5dbddd82
+DeviceModel: QiKU,360,8692-A00
+PushClientId: 160a3797c8345a08006
+DeviceSystem: 安卓 6.0.1
+ApiKey: 708522cecbed4a0eb2dc3cff8afd6512
+AppOwnerId: 1
+ClientVersion: 2.1.3
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; 8692-A00 Build/MMB29M)
+Host: api.dfssclub.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Tue, 16 May 2017 02:56:37 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 138
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-AspNet-Version: 4.0.30319
+X-Powered-By: neusmart
+Access-Control-Allow-Headers: DeviceId,ApiKey,accept,AuthToken,IsTokenEncrypted,Content-Type,Signature,RequestId,AppOwnerId,ClientVersion,PushClientId,DeviceModel,DeviceSystem,TimeStamp,Noncestr,ApiChecksum
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+
+返回
+{"status":0,"friendlyMessage":"退出系统成功！","message":"成功！","requestId":"15c5823ebd674537b0a10d5fc827f679","appOwnerId":1}
+
+
+在线约车链接
+https://api.dfssclub.cn/api/v1/CarAppt/Check
+
+POST https://api.dfssclub.cn/api/v1/CarAppt/Check HTTP/1.1
+DeviceId: 867662020078803
+AuthToken: edb3dbfad526426fa29a16b7c116b32a
+DeviceModel: QiKU,360,8692-A00
+PushClientId: 160a3797c8345a08006
+DeviceSystem: 安卓 6.0.1
+ApiKey: 708522cecbed4a0eb2dc3cff8afd6512
+AppOwnerId: 1
+ClientVersion: 2.1.3
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; 8692-A00 Build/MMB29M)
+Host: api.dfssclub.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+
+
+HTTP/1.1 200 OK
+Date: Tue, 16 May 2017 03:13:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 163
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-AspNet-Version: 4.0.30319
+X-Powered-By: neusmart
+Access-Control-Allow-Headers: DeviceId,ApiKey,accept,AuthToken,IsTokenEncrypted,Content-Type,Signature,RequestId,AppOwnerId,ClientVersion,PushClientId,DeviceModel,DeviceSystem,TimeStamp,Noncestr,ApiChecksum
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+
+{"data":{"userType":2,"schoolFrom":0},"status":0,"friendlyMessage":"成功！","message":"成功！","requestId":"303c786bfb494ae5a3ee852679ec6760","appOwnerId":1}
+
+
+在线约车页面提示语
+https://api.dfssclub.cn/api/v1/CarAppt/Dfss/PlanSearchDate
+
+GET https://api.dfssclub.cn/api/v1/CarAppt/Dfss/PlanSearchDate HTTP/1.1
+DeviceId: 867662020078803
+AuthToken: edb3dbfad526426fa29a16b7c116b32a
+DeviceModel: QiKU,360,8692-A00
+PushClientId: 160a3797c8345a08006
+DeviceSystem: 安卓 6.0.1
+ApiKey: 708522cecbed4a0eb2dc3cff8afd6512
+AppOwnerId: 1
+ClientVersion: 2.1.3
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; 8692-A00 Build/MMB29M)
+Host: api.dfssclub.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+Date: Tue, 16 May 2017 03:13:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 325
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-AspNet-Version: 4.0.30319
+X-Powered-By: neusmart
+Access-Control-Allow-Headers: DeviceId,ApiKey,accept,AuthToken,IsTokenEncrypted,Content-Type,Signature,RequestId,AppOwnerId,ClientVersion,PushClientId,DeviceModel,DeviceSystem,TimeStamp,Noncestr,ApiChecksum
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+
+{"data":{"minDate":"2017-05-16","maxDate":"2017-05-22","prompt":"APP暂时不能预约桩训和考前训练，请拨打010-53221999转人工或现场预约，敬请谅解！"},"status":0,"friendlyMessage":"获取可约查询范围成功！","message":"成功！","requestId":"e424de53f887445e902cc9157c02462a","appOwnerId":1}
+
+
+在线约车日期搜索
+https://api.dfssclub.cn/api/v1/CarAppt/Dfss/AvailablePlans?toDate=2017-05-21&fromDate=2017-05-20
+
+GET https://api.dfssclub.cn/api/v1/CarAppt/Dfss/AvailablePlans?toDate=2017-05-21&fromDate=2017-05-20 HTTP/1.1
+DeviceId: 867662020078803
+AuthToken: edb3dbfad526426fa29a16b7c116b32a
+DeviceModel: QiKU,360,8692-A00
+PushClientId: 160a3797c8345a08006
+DeviceSystem: 安卓 6.0.1
+ApiKey: 708522cecbed4a0eb2dc3cff8afd6512
+AppOwnerId: 1
+ClientVersion: 2.1.3
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; 8692-A00 Build/MMB29M)
+Host: api.dfssclub.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+Date: Tue, 16 May 2017 03:15:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 471
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-AspNet-Version: 4.0.30319
+X-Powered-By: neusmart
+Access-Control-Allow-Headers: DeviceId,ApiKey,accept,AuthToken,IsTokenEncrypted,Content-Type,Signature,RequestId,AppOwnerId,ClientVersion,PushClientId,DeviceModel,DeviceSystem,TimeStamp,Noncestr,ApiChecksum
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+
+{"data":{"plans":[{"datingCarDate":"2017-05-20","lessonID":"006","lessonName":"模拟机","trainingTimeSlotId":"05","trainingTimeSlotName":"19-21","dayOfWeek":"星期六"},{"datingCarDate":"2017-05-21","lessonID":"006","lessonName":"模拟机","trainingTimeSlotId":"05","trainingTimeSlotName":"19-21","dayOfWeek":"星期日"}]},"status":0,"friendlyMessage":"获取约车列表成功！","message":"成功！","requestId":"c666f19ac8614c90a717f0633e35484e","appOwnerId":1}
+
+
+预约
+https://api.dfssclub.cn/api/v1/CarAppt/Dfss/AddPlan
+
+POST https://api.dfssclub.cn/api/v1/CarAppt/Dfss/AddPlan HTTP/1.1
+DeviceId: 867662020078803
+AuthToken: edb3dbfad526426fa29a16b7c116b32a
+DeviceModel: QiKU,360,8692-A00
+PushClientId: 160a3797c8345a08006
+DeviceSystem: 安卓 6.0.1
+ApiKey: 708522cecbed4a0eb2dc3cff8afd6512
+AppOwnerId: 1
+ClientVersion: 2.1.3
+Content-Type: application/json; charset=utf-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; 8692-A00 Build/MMB29M)
+Host: api.dfssclub.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 73
+
+{"trainingTimeSlotId":"05","datingCarDate":"2017-05-21","lessonId":"006"}
+HTTP/1.1 200 OK
+Date: Tue, 16 May 2017 03:16:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 132
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-AspNet-Version: 4.0.30319
+X-Powered-By: neusmart
+Access-Control-Allow-Headers: DeviceId,ApiKey,accept,AuthToken,IsTokenEncrypted,Content-Type,Signature,RequestId,AppOwnerId,ClientVersion,PushClientId,DeviceModel,DeviceSystem,TimeStamp,Noncestr,ApiChecksum
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+
+{"status":0,"friendlyMessage":"预约成功！","message":"成功！","requestId":"2dd4013de48f49368b66d965db8227bf","appOwnerId":1}
+
+
+查看已预约
+https://api.dfssclub.cn/api/v1/CarAppt/Dfss/StudentPlans
+
+GET https://api.dfssclub.cn/api/v1/CarAppt/Dfss/StudentPlans HTTP/1.1
+DeviceId: 867662020078803
+AuthToken: edb3dbfad526426fa29a16b7c116b32a
+DeviceModel: QiKU,360,8692-A00
+PushClientId: 160a3797c8345a08006
+DeviceSystem: 安卓 6.0.1
+ApiKey: 708522cecbed4a0eb2dc3cff8afd6512
+AppOwnerId: 1
+ClientVersion: 2.1.3
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; 8692-A00 Build/MMB29M)
+Host: api.dfssclub.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+Date: Tue, 16 May 2017 03:17:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1257
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-AspNet-Version: 4.0.30319
+X-Powered-By: neusmart
+Access-Control-Allow-Headers: DeviceId,ApiKey,accept,AuthToken,IsTokenEncrypted,Content-Type,Signature,RequestId,AppOwnerId,ClientVersion,PushClientId,DeviceModel,DeviceSystem,TimeStamp,Noncestr,ApiChecksum
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+
+{"data":{"plans":[{"datingCarID":"5ac27837-c7a3-4364-8795-1cc524182951","datingCarDate":"2017-05-21","lessonName":"模拟机","trainingTimeSlotName":"19-21","address":"旗杆西侧第一排房","cardNum":"9031","coachName":"李淑荣","canCancel":true,"carInfoID":"9031","signQrCode":"5AC27837-C7A3-4364-8795-1CC524182951","canSign":true,"isEvaled":-1,"fchrEvalBaseID":"070","fchrEvalTargetID":"07010","fchrEvalClass":"1","fchrDepartmentName":"法规教学处","fchrPhoto":"http://sys.dfss.com.cn/imgEmployee/E010023.jpg","coachId":"B0065","dayOfWeek":"星期日"},{"datingCarID":"2771360a-8542-4de3-9feb-afb953ff7808","datingCarDate":"2017-05-20","lessonName":"模拟机","trainingTimeSlotName":"19-21","address":"旗杆西侧第一排房","cardNum":"9020","coachName":"赵丽珍","canCancel":true,"carInfoID":"9020","signQrCode":"2771360A-8542-4DE3-9FEB-AFB953FF7808","canSign":true,"isEvaled":-1,"fchrEvalBaseID":"070","fchrEvalTargetID":"07010","fchrEvalClass":"1","fchrDepartmentName":"法规教学处","fchrPhoto":"http://sys.dfss.com.cn/imgEmployee/E010195.jpg","coachId":"B0692","dayOfWeek":"星期六"}]},"status":0,"friendlyMessage":"获取约车记录成功！","message":"成功！","requestId":"d581a2faedd34f6bb72fb74d97527908","appOwnerId":1}
+
+
+取消预约
+https://api.dfssclub.cn/api/v1/CarAppt/Dfss/CancelPlan
+
+POST https://api.dfssclub.cn/api/v1/CarAppt/Dfss/CancelPlan HTTP/1.1
+DeviceId: 867662020078803
+AuthToken: edb3dbfad526426fa29a16b7c116b32a
+DeviceModel: QiKU,360,8692-A00
+PushClientId: 160a3797c8345a08006
+DeviceSystem: 安卓 6.0.1
+ApiKey: 708522cecbed4a0eb2dc3cff8afd6512
+AppOwnerId: 1
+ClientVersion: 2.1.3
+Content-Type: application/json; charset=utf-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; 8692-A00 Build/MMB29M)
+Host: api.dfssclub.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 54
+
+{"datingCarID":"5ac27837-c7a3-4364-8795-1cc524182951"}
+HTTP/1.1 200 OK
+Date: Tue, 16 May 2017 03:17:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 138
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-AspNet-Version: 4.0.30319
+X-Powered-By: neusmart
+Access-Control-Allow-Headers: DeviceId,ApiKey,accept,AuthToken,IsTokenEncrypted,Content-Type,Signature,RequestId,AppOwnerId,ClientVersion,PushClientId,DeviceModel,DeviceSystem,TimeStamp,Noncestr,ApiChecksum
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+
+{"status":0,"friendlyMessage":"取消预约成功！","message":"成功！","requestId":"78a98cf32f4d4a6f80a5f452c1df1a64","appOwnerId":1}
