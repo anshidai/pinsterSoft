@@ -1,0 +1,108 @@
+数据库 mydb
+
+参数设置 pre_setting
+	id 
+	键名 kname
+	键值 kval
+	
+CREATE TABLE "pre_setting" (
+	"id" INTEGER PRIMARY KEY AUTOINCREMENT,
+	"kname" VARCHAR (50),
+	"kval" VARCHAR (100),
+	CONSTRAINT "id" UNIQUE ("id")
+);
+
+
+域名管理 pre_domain
+	id
+	网站名称 name
+	网址地址 domain
+	区间开始 start_id
+	区间结束 end_id
+	状态 status 默认1正常 2异常 3删除
+	添加时间 adddate
+	
+CREATE TABLE "pre_domain" (
+	"id" INTEGER PRIMARY KEY AUTOINCREMENT,
+	"name" VARCHAR (100),
+	"domain" VARCHAR (50),
+	"start_id"  INT(10),
+	"end_id"  INT(10),
+	"status" INT (2),
+	"adddate" DATETIME,
+	CONSTRAINT "id" UNIQUE ("id")
+);
+
+帐号管理 pre_account
+	id
+	帐号 username
+	密码 pwd
+	域名id domain_id
+	状态 status 默认1正常 2异常 3删除
+	添加时间 adddate
+	
+CREATE TABLE "pre_account" (
+	"id" INTEGER PRIMARY KEY AUTOINCREMENT,
+	"username" VARCHAR (50),
+	"pwd" VARCHAR (50),
+	"domain_id"  INT(10),
+	"end_id"  INT(10),
+	"status" INT (2),
+	"adddate" DATETIME,
+	CONSTRAINT "id" UNIQUE ("id")
+);
+	
+发布管理 pre_push
+	id
+	标题 title
+	链接 linkurl
+	域名id domain_id
+	帐号id account_id
+	文本id text_id
+	状态 status 默认 1未发布 2发布成功 3发布失败
+	添加时间 adddate
+	
+CREATE TABLE "pre_push" (
+	"id" INTEGER PRIMARY KEY AUTOINCREMENT,
+	"title" VARCHAR (100),
+	"linkurl" VARCHAR (50),
+	"domain_id"  INT(10),
+	"account_id"  INT(10),
+	"text_id"  INT(10),
+	"status" INT (2),
+	"adddate" DATETIME,
+	CONSTRAINT "id" UNIQUE ("id")
+);
+
+段落文本管理 pre_text_section
+	id
+	段落内容 content
+	状态 status 默认1正常 3删除
+	添加时间 adddate
+	
+CREATE TABLE "pre_text_section" (
+	"id" INTEGER PRIMARY KEY AUTOINCREMENT,
+	"content" text,
+	"status" INT (2),
+	"adddate" DATETIME,
+	CONSTRAINT "id" UNIQUE ("id")
+);
+	
+连接文本管理 pre_text_linkurl
+	id
+	连接地址 linkurl
+	连接文本 linktext
+	状态 status 状态 默认1正常 3删除
+	添加时间 adddate
+
+CREATE TABLE "pre_text_linkurl" (
+	"id" INTEGER PRIMARY KEY AUTOINCREMENT,
+	"linkurl" VARCHAR (100),
+	"linktext" VARCHAR (100),
+	"status" INT (2),
+	"adddate" DATETIME,
+	CONSTRAINT "id" UNIQUE ("id")
+);
+
+	
+	
