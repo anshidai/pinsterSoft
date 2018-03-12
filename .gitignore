@@ -1,5 +1,7 @@
-*.exe
+﻿*.exe
+!AntiVCode2.6.3/AntiVCode.exe
 *.rar
+*.zip
 pinsterSoft/logs
 /东方时尚预约辅助/*.apk
 /东方时尚预约辅助/log
