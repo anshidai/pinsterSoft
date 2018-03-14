@@ -1,0 +1,7 @@
+F:\自己验证码识别模块\位图库做的最后备份\我的dll\其它语言调用列子\VB.Net调用例程 - 副本\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\自己验证码识别模块\位图库做的最后备份\我的dll\其它语言调用列子\VB.Net调用例程 - 副本\obj\x86\Debug\WmCode_C_.WmCode_Demo.MainForm.resources
+F:\自己验证码识别模块\位图库做的最后备份\我的dll\其它语言调用列子\VB.Net调用例程 - 副本\obj\x86\Debug\WmCode_VB.Net.vbproj.GenerateResource.Cache
+F:\自己验证码识别模块\位图库做的最后备份\我的dll\其它语言调用列子\VB.Net调用例程 - 副本\bin\Debug\WmCode_C#.exe
+F:\自己验证码识别模块\位图库做的最后备份\我的dll\其它语言调用列子\VB.Net调用例程 - 副本\bin\Debug\WmCode_C#.pdb
+F:\自己验证码识别模块\位图库做的最后备份\我的dll\其它语言调用列子\VB.Net调用例程 - 副本\obj\x86\Debug\WmCode_C#.exe
+F:\自己验证码识别模块\位图库做的最后备份\我的dll\其它语言调用列子\VB.Net调用例程 - 副本\obj\x86\Debug\WmCode_C#.pdb

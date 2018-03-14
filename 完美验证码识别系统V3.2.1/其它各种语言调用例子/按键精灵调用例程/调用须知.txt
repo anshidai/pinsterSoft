@@ -1,0 +1,13 @@
+用按键精灵导入WmCode.dll验证码识别例子.Q后，把WmCode.dll、网易论坛.dat、temp.jpg这三个文件复制到D盘根目录。
+
+如果上述三个文件的路径发生了变动，请修改脚本文件里“D:\”为新的路径。
+
+注意，API申明部分也要修改。
+
+Private Declare Function LoadWmFromFile Lib "D:\WmCode.dll" (ByVal FilePath As String,ByVal Password As String) As Boolean
+Private Declare Function GetImageFromFile Lib "D:\WmCode.dll" (ByVal FilePath As String,ByVal Vcode As String) As Boolean
+Private Declare Function UseUnicodeString Lib "D:\WmCode.dll" (ByVal OptionIndex As Long,ByVal OptionValue As Long) As Boolean
+Private Declare Function SetWmOption  Lib "D:\WmCode.dll" (ByVal OptionIndex As Long,ByVal OptionValue As Long) As Boolean
+
+
+即以上四行中的"D:\WmCode.dll"也要修改为新的路径。

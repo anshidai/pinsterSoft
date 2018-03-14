@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Project>
+<ProjInfo>
+<EnterFile>完美验证码识别系统.t</EnterFile>
+<Language>0</Language>
+<Version>5.5</Version>
+<ExeIco/>
+<Platform>pc</Platform>
+</ProjInfo>
+<DesignInfo>
+<LockedCtrl>窗口: 完美验证码识别系统 识别验证码|载入识别库| 窗口结束</LockedCtrl>
+</DesignInfo>
+</Project>

@@ -1,0 +1,7 @@
+[dedecms]
+验证码地址=http://www.xindemarinenews.com/include/vdimgck.php?
+请求头=
+cookie=
+图像滤镜=二值化@指定阈值@180|黑白处理@细化@null|图像滤波@均值滤波1@null|二值化@指定阈值@200|去除干扰@去干扰投影@0,2|
+字库路径=\dedecms\dedecms.yzl
+编辑区设置=0|0|1|10|1|0|0|1|8|0|20|0|1|0|0|0|0|0|80||0|0|0|1|0|1|1|1|0|0|
