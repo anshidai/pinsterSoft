@@ -1,3 +1,100 @@
-托福考试的听力部分是重点部分，那么做好复习题很重要
-2018年2月4日托福口语机经小范围预测!欢迎阅读
-托福考试前夕的预测题目还是很不错的，那么托福考试预测机经的题目有哪些呢
+Media
+curiosity 好奇心
+dependable/trustworthy 值得信赖的
+coverage 覆盖面
+make headlines, newsworthy 成为头版头条; 有新闻价值的
+informative, entertaining 信息量大的; 娱乐的
+ratings 评分
+go viral /all the rage 变得流行
+journalists/the press 记者;报刊，新闻界
+groupies, icon, make a splash 追星族; 偶像; 产生轰动
+clarify, censorship 澄清; 审查
+blow things out of proportion, exaggerate things 夸大事实
+commercial, flyer, billboard, poster, tabloid 电视广告; 传单; 广告牌;海报;小报
+quiz show, reality show, talk show, variety show 智力竞争节目; 真人秀; 脱口秀; 综艺节目
+sitcom, soap opera, current affairs 情景喜剧; 肥皂剧; 实事
+the print media/the electronic media 纸媒; 电子媒体
+be awash with/be inundated with/be saturated with sth. 被……所充斥
+delete/eliminate/excise 删除
+excessive/gratuitous violent and pornographic contents 过量的暴力和色情内容
+misleading/misrepresented/distorted 误导的，扭曲的
+celebrities, scandals 名人;丑闻
+up‐to--date/up‐to--the--minute 最新的
+code of ethics/code of conduct 道德准则，行为准则
+ubiquitous/prevalent 无所不在的
+high-profile, low--profile 高调，低调
+fabricated, absurd/ludicrous 编造的;荒谬的
+SAT阅读题型之易错题型1、词汇题
+SAT阅读几乎每一篇文章都有1-2个词汇题，所以重要性不言而喻，而且SAT改革后，语法部分也出现了很多形近词的辨析。而新版SAT考试将摒弃生僻词汇，侧重于考察学生根据语境推断词义，考试中的词汇将是学生 在大学和日后的生活中都会用到的。但这不能说明对于词汇考察的难度一定会降低，因为在去掉生词的同时，会加强学生对于常用词用法的深入考察。词汇考察将缩小广度，扩大深度。
+注意方法，50%用上下文类反关系判断;50%用词义辨析判断;
+词汇题，由于文化差异，是中国学生的最大短板，而且不是通过简单的背单词书可以完成的，只能一点点积累，没什么好办法;一套阅读题目，错2-3个词汇题，很正常。什么时候，学生就错词汇题了，说明快到SAT阅读750+的状态了。
+第一步：审题干，确定题目中的关键词，一般就是该词汇。
+第二步：回原文定位，结合上下文判断词汇的含义。
+第三步：看选项，根据题意做出选择。在解题中，大家一定要注意先读原文，再看选项，以免浪费不必要的时间。
+SAT阅读题型之易错题型2、循证题
+循证的题目分为两大类型：
+(1)两道题：分别对于观点及其证据的两重设问;
+(2) 一道题：观点已明确，需要找到支持该观点的原文依据。(参见P460,Q32)
+目前来看，绝大多数题属于第1类。
+注意方法，务必做到：
+(1)一组循证题，注意标准步骤，切勿乱做：
+第一步，识别上一题的关键词或关键词组;
+第二步，将关键词或关键词组直接代入下一题的四个行号中，排除选项;
+第三步，根据剩余的1-2个选项，再反推上一题，做到照应题目，最终确认答案。
+那种让学生先用上一题到文章中排除选项，然后再去确认下一题的教学方法，是骗人的;老师自己都做不对，不能自圆其说;不要用各种模拟题(可汗、Kaplan、Princeton、McGraw，甚至其他怪题)去总结题型规律，会死人的;虽然可汗已经很不错了，但还是有不少bug;一定用OG和RT总结规律。
+(2)单个循证题，直接关键词代入即可，很容易，不多说了;就一项说明，千万别把单个循证题，看成是和上一题相关的行号循证。你懂的!
+区分“组循证”还是“单循证”，有一个小窍门，就是一看到给四个行号的题目，先看一下题干部分，是不是问“the answer to the previous question?”，老司机都明白!!!
+循证题常见考点：
+(1)结构重点和主要观点依然是常见考点
+(2)对于双篇观点关系的考查
+(3)对于写作手法的考查
+SAT阅读题型之易错题型3、无行号细节题
+这个是SAT向ACT学“坏”了的一种出题思路，好在出题量不大，一套题目，出3-5个;务必做到用题干中的关键词或关键词组，到文章中去找定位，然后再回来看选项，evidence-based reading;如果找不到选项，或者想用ACT的阅读方法，通过印象做题，那就自求多福吧。SAT是Deep Reading，强调语言思辨，ACT是Shallow Reading，强调信息收集，两者思路南辕北辙。
+SAT阅读题型之易错题型4、图文结合题
+图文结合的题目就意味着考生们在做题的时候不能只看图标，还需回原文定位相关信息，结合阅读文章以及图表，来进行选择。
+首先，纯粹的读图题，一定要选对!图表的部分，一定看说明文本!
+其次，图文结合题，要看清是问How还是Whether。如果题目问How(图表如何支持文章)，难度还不大，排除做题即可;如果题目问Whether(图表是否支持文章)，那么好了，这题深了!!!认真思考，好好作答。最后，如果是图文结合的题目，聪明人都是用图表先做第一轮选项排除的，因为图表可能包含的信息量远小于文章。好好体会!!!
+以上就是聚培训教育培训机构给大家整理的关于SAT阅读题型之易错题型汇总，希望　一、SAT作文题目分析之SAT写作如何分析题目写作
+1. 首先写作题目中在第二个方框中找文章的中心思想，在persuade his/her audience that 这个提示词组的后面。对文章中心思想的明确有利于接下来的文章阅读。
+2. 然后开始阅读文章。通常，第一遍阅读时为了通晓文意，我们不需要也没有足够的时间，去逐字逐句慢慢品读。因此我们应该拿起笔，边读边划，划出能让我们记住这个段落主旨的词句。主题句尤其值得关注，因为整个段落通常围绕主题句展开。
+然而，有些句子很长很复杂，这时，划出“关键词”对于快速领会句子意思有十分重要的作用。对“关键词”的选择具有一定主观性，但是真正懂得阅读的人基本上会达成一些共识。
+在第二遍阅读时，对文章中的论证元素进行有效识别，论证元素包括：evidence(证据形式)，reasoning(论证手法)和stylisticand persuasive elements(修辞元素)这三个分析方面。对于文章中的这些元素要做好标记，方面后面的写作不会遗漏某些重要内容。
+二、SAT作文题目分析之SAT作文题目如何写作
+1、拆分法
+分析题目极为有效的一种手段，其基本原理就是面对一个云山雾罩的抽象的大的概念，将其一分为二或者一分为多进行分别讨论。
+2、解析法
+通过对题目主体的需求进行分析，从而找到支持论证的有说服力的理由与典型的论据。主体需求，可以是个人，教育，社会，政府与文化发展等方面的需求。
+3、正反法
+对题目的主张或者结论分成两面分析。没有绝对对错，哪边理由与例证多我们走哪边。也可写成让步式或者对照式两面论证。
+4、比较法
+适用于题干中两个对等概念的比较。
+举例讲解拆分法在作文中的应用
+在英文中，如果将一个概念定义为FICTION 或者 MYTH，基本就等于对其的否定。这里一个大的抽象概念就是个人责任，题目对其进行了否定。本题涉及了 “个人的行为”是由什么驱动的? 是个人责任还是外在因素?
+如果我们只关注“个人责任”这个貌似很哲学的概念，然后上网铺天盖地一顿查询，得出一堆很高深的哲学与政治概念，我们就把题目给复杂化了。这样准备题库里的244道题目，将把你的GRE备考带进一个没完没了的泥沼。我们需要做的就是把 “个人” 这个概念拆分成一些自己熟悉的，有把握写好的，能够分析其行为动力的不同的人群。
+首先，想想白领，White collar workers，every Monday when they step into the office building，they are compelled to do because they have to labor hard to keep their heads above water.驱动他们做不愿意做的工作是因为，他们要Pay for their bills，make their ends meet，take care of their families，concern their social status，being overwhelmed by anxiety about their retirement，etc).
+那么白领是一种可怜巴巴的人群而已，他们并不代表所有的 “个人”，必须分开讨论。可能有同学已经能想到一些高尚的人，如在印度为穷苦病人提供人道主义救援(Humanitarian Relief)的Mother Teresa，和战地天使，现代护理学创始人Florence Nightingale.另外，还有美国社会的志愿者：救世军，Salvation Army，为流浪无家可归的穷人提供Shelter，food，clothes等，还有法国的医生无国界组织Doctors without Borders，美国红十字会 American Red Cross，为世界贫困地区提供志愿医疗服务。这些都是具有利他主义精神的个人，Altruistic individuals，并不是社会外力强加他们去做这些闪烁着人道主义光芒的事业。比如南丁格尔，出身贵族的大小姐，完全可以享受上流社会(upper class)的生活，比如医生，本身是高收入人群，(decent income)，却选择去非洲与印度。
+以上就是聚培训教育培训机构给大家分享的关于如何通过SAT作文题目分析来写作，希望通过上面的介绍能让大家对SAT题目分析写作方法有了新的认识，学到有用的技巧，这样才能帮大家更好地写好SAT作文。
+大家在做SAT阅读时能格外注意这些题型，这些题型非常容易出现错误，我们一定要对这些题型着重分析这些题型，希望大家能在SAT阅读中取得好成绩。
+1. fewer 形容特定的数字，less than 形容连续的quantity，一般为不可数;
+2. farther 形容距离 further形容程度;
+3. that 限制性定从 指的是那些...的东西，影响主句的意思表达，which有逗号只能用which，可以做插入位置，不影响主句意思表达。
+4. 在表目的，野心等词后，用to do来形容，做表语时，也用to do。
+5. 表原因时，有because优于since，因为since还有引导时间状从的歧义。
+6. there is 后面加具体名词，表客观存在;不能接抽象的名词。如recovery。以下形式不对：there be sth done;there   could be done sth; there be a/an动名词(it s ved that)。
+7. being 除非在进行时的被动中有正确，一般being加名词，形容词，with/as being+名词，形容词，ving 都不对。
+8. maybe 和perhaps可以互换。
+9. 介+代+动名词 必错 without sb’s doing。
+10. such crops as A,B crops such as A ,B 前者的意思更清楚明确。
+11. so that、 so as to 表目的 so。。。。that，such。。。that。。。结果状语。
+12. 在A of B，a sth that中，sth形容的是A。
+13. 如果表原因时，没有because，则逗号加for经常为正确选项。
+14. doubt否定时接that，肯定时接whether。
+15. B as a means to A ;B as a means of A 前者是B是达到A的一个方法，后者是B is a kind of   A。
+16. 使用the前面必须已经有特指。如果没有，一般选择定冠词。An/a。
+17. 当是有生命的物主’s sth比 sth of 物主要好。
+18. dated at......
+19.   one和ones指代前面出现的单数和复数名词的核心词，不指代不可数名词及抽象名词。代词一般都指前面出现的名词。如they和主语名词，应是they在后面。
+20.each of 复数名词 + verb,谓语动词用单数　复数名词+each用复数动词。
+21. 要注意不要将with the sole intent to sell误认为是to do结构表示目的. to   do结构修饰的是动词,如果修饰名词的话应该用A of B结构.with the sole intent没有动词出现,所以应该用of   selling来修饰名词intent。
+22 but 为了避免产生作为介词(除了)的歧义，要补出谓语证明其连词的词性。
+23. 尽量不要用动词的抽象名词形式, 例如prevention等。
